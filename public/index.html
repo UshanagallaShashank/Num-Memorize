@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>MindPower</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+<link rel="stylesheet" href="./style.css">
+
+
+
+</head>
+
+<body>
+  <style>
+    .marquee {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+  
+    .marquee span {
+        display: inline-block;
+        animation: marquee 10s linear infinite;
+    }
+  
+    @keyframes marquee {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+    .larger-text {
+        font-size: 2em;
+    }
+  </style>
+<!-- partial:index.partial.html -->
+
+<link rel="stylesheet" type="text/css" href="./style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet">
+
+<div class="content">
+  <h1 class="larger-text" style="text-align: center;">MIND-POWER</h1>
+<pre>
+  
+-----------------------------------------------------
+
+Greetings, Shall we play a game?
+
+Re-enter the number you see below
+
+You will only have 1 sec to view the number
+
+-----------------------------------------------------
+</pre>
+
+
+
+		<div id="app"></div>
+	</div>
+
+<!-- partial -->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js'></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js'></script><script  src="./index.js"></script>
+
+
+
+</body>
+
+</html>
